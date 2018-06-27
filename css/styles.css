@@ -44,7 +44,7 @@
   .nav li {
     width: 200px;
     border-bottom: none;
-    height: 50px;
+    height: auto;
     line-height: 50px;
     font-size: 1.5em;
   }
@@ -65,7 +65,7 @@
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     line-height: 1.42857143;
-    color: #2c3e50;
+    color: #2c3e50 !important;
     background-color: #ffffff;
 	padding-left: 15%;
 	padding-right: 15%;
@@ -76,18 +76,22 @@
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     line-height: 1.42857143;
-    color: #fff;
+    color: #fff !important;
     background: #415579;
 	padding-left: 15%;
 	padding-right: 15%;
 	
 }
 
-h2 {
+h2 , h3 {
 	text-align : center;
 }
 
 .main {
-		padding-bottom : 100px;
-		background-color : transparent;
+	padding-bottom : 100px;
+	background-color : transparent;
+}
+
+.light-theme .table {
+	color: #2c3e50 !important;
 }
